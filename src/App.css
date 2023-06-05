@@ -1,0 +1,278 @@
+/*variable*/
+:root{
+  --fullWidth: 100vw;
+  --fullHeight: 100vh;
+  --headerHeight: 10vh;
+  --footerHeight: 10vh;
+  --cherry: hsl(348, 96%, 42%);
+  --black: #000000;
+  --blue: #34568B;
+  --linearblackblue: linear-gradient(45deg, rgba(12,0,18,1) 0%, rgba(187,133,158,1) 67%, rgba(58,42,255,1) 100%);position: relative;  
+  --lineartextbg:  linear-gradient(360deg, rgba(12,0,18,1) 0%, rgba(187,133,158,1) 51%, rgba(234,244,243,1) 100%);
+}
+/*font*/
+@font-face{
+  font-family: 'AvenirRegular';
+  src: url('./asset/font/AvenirRegular.ttf')
+}
+/*initial*/
+body{
+  font-family: 'AvenirRegular';
+  font-size: 15px;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+p,h1,h2,h3,h4,h5{
+  text-align: flex-start;
+}
+p,a,h1{
+  font-size: 1em;
+}
+
+@keyframes initial-imageLeft{
+  0%{
+    transform: translate(-100vw,0vh)
+  }
+  50%{
+    transform: translate(0vw,0vh)
+  }
+  100%{
+    transform: translate(0vw,0vh) 
+  }
+}
+@keyframes initial-imageRight {
+  0%{
+    transform: translate(100vw,0vh)
+  }
+  50%{
+    transform: translate(0vw,0vh)
+  }
+  100%{
+    transform: translate(0vw,0vh) 
+  }
+}
+@keyframes wide-text-container{
+  0%{
+    transform: translate(0vw,-200vh);
+    display: none;
+  }
+  50%{
+    transform: translate(0vw,-100vh);
+    display: flex;
+    opacity: 0.1;
+  }
+  100%{
+    transform: translate(0vw,0vh);
+    display: flex;
+    opacity: 1;
+  }
+}
+@keyframes small-text-container {
+  0%{
+    transform: translate(10vw,0vh);
+    opacity:1;
+  }
+  50%{
+    transform: translate(10vw,100vh);
+    opacity:0.1;
+  }
+  100%{
+    transform: translate(10vw,200vh); 
+    opacity:0;
+  }
+}
+@keyframes smaller-left{
+  0%{
+    transform: translate(100vw,0vh)
+  }
+  50%{
+    transform: translate(50vw,10vh)
+  }
+  100%{
+    transform: translate(100vw,20vh) 
+  }
+}
+@keyframes smaller-right {
+  0%{
+    transform: translate(0vw,0vh)
+  }
+  50%{
+    transform: translate(-50vw,10vh)
+  }
+  100%{
+    transform: translate(-100vw,20vh) 
+  }
+}
+@keyframes leaving-imageLeft{
+  0%{
+    transform: translate(50vw,0vh)
+  }
+  50%{
+    transform: translate(0vw,-12vh)
+  }
+  100%{
+    transform: translate(-50vw,-25vh) 
+  }
+}
+@keyframes leaving-imageRight {
+  0%{
+    transform: translate(0vw,0vh)
+  }
+  50%{
+    transform: translate(50vw,100vh)
+  }
+  100%{
+    transform: translate(100vw,200vh) 
+  }
+}
+@keyframes secondSection-image-down{
+  0%{
+    transform: translate(5vw,-50vh);
+    opacity: 0;
+  }
+  80%{
+    transform: translate(5vw,-0vh);
+    opacity: 0.25;
+  }
+  100%{
+    transform: translate(5vw,5vh);
+    opacity: 1;
+  }
+}
+@keyframes secondSection-image-up{
+  0%{
+    transform:  translate(5vw,5vh);
+    height: 100%;
+    opacity: 0.5;
+  }
+  20%{
+    transform: translate(5vw,0vh);
+    height: 10%;
+    opacity: 0;
+  }
+  100%{
+    transform: translate(5vw,-10vh);
+    height: 0;
+    opacity: 0;
+  }
+}
+.home-container{
+  z-index:2;
+}
+.app-header{
+  display:flex;
+  justify-content: center;
+  width: var(--fullWidth);
+  height: var(--headerHeight);
+  background: var(--linearblackblue);
+}
+.app-footer h2,.app-header h2{
+  color: white;
+}
+.app-footer{
+  width: var(--fullWidth);
+  height: var(--footerHeight);
+  background-color: var(--cherry);
+  z-index:1;
+}
+.app-footer *,.app-header *{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.app-body .first-section, .second-section{
+  width: var(--fullWidth);
+  height: var(--fullHeight);
+  background: var(--lineartextbg);
+}
+.app-body section:nth-child(1) .photos{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.app-body section:nth-child(2){
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  width: var(--fullWidth);
+  height: var(--fullHeight);
+}
+.app-body section:nth-child(2) img{
+  display:none;
+  width: 90vw;
+  height: 80%;
+  border-radius: 5%;
+  transform: translate(5vw,5vh);
+}
+.app-body section:nth-child(1) .photos img{
+  border-radius: 0%;
+  width: 75vw;
+  height: 100vh;
+  object-fit: fill;
+}
+.app-body section:nth-child(1) .photos .initial-left{
+  position: absolute;
+  top: 0vh;
+  left: -25vw;
+  z-index:2;
+  animation: initial-imageLeft 2s;
+}
+.app-body section:nth-child(1) .photos .leaving-left{
+  position: absolute;
+  top: 0vh;
+  left: -100vw;
+  z-index:2;
+  animation: leaving-imageLeft 2s;
+}
+.app-body section:nth-child(1) .photos .initial-right{
+  position: absolute;
+  top: 0vh;
+  right: -25vw;
+  z-index:2;
+  animation: initial-imageRight 2s;
+}
+.app-body section:nth-child(1) .photos .leaving-right{
+  position: absolute;
+  bottom: -100vh;
+  right: 200vw;
+  z-index:2;
+  animation: leaving-imageLeft 2s;
+}
+.app-body section:nth-child(1) .photos .smaller-left{
+  position: absolute;
+  top: 0vh;
+  left: -70vw;
+  z-index:2;
+  animation: smaller-imageLeft 2s;
+}
+.app-body section:nth-child(1) .photos .smaller-right{
+  position: absolute;
+  top: 0vh;
+  right: -70vw;
+  z-index:2;
+  animation: smaller-imageLeft 2s;
+}
+.app-body section:nth-child(1) .wide-text-container{
+  width: 80vw;
+  height: 85vh;
+  z-index: index 2;
+  animation: wide-text-container 1s;
+  margin: 0 10%;
+}
+.app-body section:nth-child(1) .small-text-container{
+  width: 80vw;
+  height: 85vh;
+  z-index: -1;
+  animation: small-text-container 1s;
+}
+.app-body section:nth-child(2) .second-section-image-down{
+  display: flex;
+  border-radius: 2%;
+  transform: translate(5vw,5vh);
+  animation: secondSection-image-down linear 1.5s;
+}
+.app-body section:nth-child(2) .second-section-image-up{
+  display: flex;
+  border-radius: 2%;
+  transform: translate(5vw,5vh);
+  animation: secondSection-image-up 3s;
+}
