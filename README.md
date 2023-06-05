@@ -1,2 +1,2 @@
-www.semiherd.github.io/onscrollanimation
+www.semiherd.github.io/onscrollanimation/
 
