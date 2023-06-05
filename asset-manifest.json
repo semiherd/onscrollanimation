@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/www.semiherd.github.io/onscrollanimation/static/css/main.345583b2.css",
-    "main.js": "/www.semiherd.github.io/onscrollanimation/static/js/main.804e2b5a.js",
-    "static/js/787.cf5968b2.chunk.js": "/www.semiherd.github.io/onscrollanimation/static/js/787.cf5968b2.chunk.js",
-    "static/media/barcelona.jpg": "/www.semiherd.github.io/onscrollanimation/static/media/barcelona.da095b4643912a65ace7.jpg",
-    "static/media/london.jpg": "/www.semiherd.github.io/onscrollanimation/static/media/london.ac4315cd213aad035e90.jpg",
-    "static/media/berlin.jpg": "/www.semiherd.github.io/onscrollanimation/static/media/berlin.3d2a4c95f9bf5601b9b7.jpg",
-    "static/media/AvenirRegular.ttf": "/www.semiherd.github.io/onscrollanimation/static/media/AvenirRegular.b58b1b9c574d4cabb0ab.ttf",
-    "index.html": "/www.semiherd.github.io/onscrollanimation/index.html",
-    "main.345583b2.css.map": "/www.semiherd.github.io/onscrollanimation/static/css/main.345583b2.css.map",
-    "main.804e2b5a.js.map": "/www.semiherd.github.io/onscrollanimation/static/js/main.804e2b5a.js.map",
-    "787.cf5968b2.chunk.js.map": "/www.semiherd.github.io/onscrollanimation/static/js/787.cf5968b2.chunk.js.map"
+    "main.css": "/onscrollanimation/static/css/main.d1658d48.css",
+    "main.js": "/onscrollanimation/static/js/main.88949c3b.js",
+    "static/js/787.cf5968b2.chunk.js": "/onscrollanimation/static/js/787.cf5968b2.chunk.js",
+    "static/media/barcelona.jpg": "/onscrollanimation/static/media/barcelona.da095b4643912a65ace7.jpg",
+    "static/media/london.jpg": "/onscrollanimation/static/media/london.ac4315cd213aad035e90.jpg",
+    "static/media/berlin.jpg": "/onscrollanimation/static/media/berlin.3d2a4c95f9bf5601b9b7.jpg",
+    "static/media/AvenirRegular.ttf": "/onscrollanimation/static/media/AvenirRegular.b58b1b9c574d4cabb0ab.ttf",
+    "index.html": "/onscrollanimation/index.html",
+    "main.d1658d48.css.map": "/onscrollanimation/static/css/main.d1658d48.css.map",
+    "main.88949c3b.js.map": "/onscrollanimation/static/js/main.88949c3b.js.map",
+    "787.cf5968b2.chunk.js.map": "/onscrollanimation/static/js/787.cf5968b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.345583b2.css",
-    "static/js/main.804e2b5a.js"
+    "static/css/main.d1658d48.css",
+    "static/js/main.88949c3b.js"
   ]
 }
