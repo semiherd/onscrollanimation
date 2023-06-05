@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/www.semiherd.github.io/onscrollanimated/static/css/main.ea1fccf7.css",
+    "main.js": "/www.semiherd.github.io/onscrollanimated/static/js/main.37ed5832.js",
+    "static/js/787.cf5968b2.chunk.js": "/www.semiherd.github.io/onscrollanimated/static/js/787.cf5968b2.chunk.js",
+    "static/media/barcelona.jpg": "/www.semiherd.github.io/onscrollanimated/static/media/barcelona.da095b4643912a65ace7.jpg",
+    "static/media/london.jpg": "/www.semiherd.github.io/onscrollanimated/static/media/london.ac4315cd213aad035e90.jpg",
+    "static/media/berlin.jpg": "/www.semiherd.github.io/onscrollanimated/static/media/berlin.3d2a4c95f9bf5601b9b7.jpg",
+    "static/media/AvenirRegular.ttf": "/www.semiherd.github.io/onscrollanimated/static/media/AvenirRegular.b58b1b9c574d4cabb0ab.ttf",
+    "index.html": "/www.semiherd.github.io/onscrollanimated/index.html",
+    "main.ea1fccf7.css.map": "/www.semiherd.github.io/onscrollanimated/static/css/main.ea1fccf7.css.map",
+    "main.37ed5832.js.map": "/www.semiherd.github.io/onscrollanimated/static/js/main.37ed5832.js.map",
+    "787.cf5968b2.chunk.js.map": "/www.semiherd.github.io/onscrollanimated/static/js/787.cf5968b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea1fccf7.css",
+    "static/js/main.37ed5832.js"
+  ]
+}
